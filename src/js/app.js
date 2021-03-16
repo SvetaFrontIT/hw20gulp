@@ -1,0 +1,3 @@
+$(() => {
+    const controller = new TodosController();
+})

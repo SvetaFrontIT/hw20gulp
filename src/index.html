@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendors.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./vendors.js"></script>
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="js-add-modal" title="Add new to do item">
+            <form class="input-group mb-3" name="new-data" onsubmit="event.preventDefault()" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-text">
+                    <input class="form-check-input mt-0" name="new-checkbox" type="checkbox" value="" aria-label="Checkbox for following text input">
+                </div>
+                <input type="text" class="form-control" name="new-text" value="" aria-label="Text input with checkbox">
+                <button class="btn btn-outline-secondary js-send-btn" type="button" id="button-addon2">SEND</button>
+            </form>
+        </div>
+        <button class="btn btn-outline-secondary js-add-btn" type="button" id="button-addon2">ADD</button>
+        <div class="app"></div>
+    </div>
+</body>
+
+</html>
