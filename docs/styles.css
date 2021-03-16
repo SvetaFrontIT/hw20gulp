@@ -1,0 +1,34 @@
+.done {
+    background: rgb(131, 231, 145);
+}
+
+.not-done {
+    background: rgb(230, 230, 72);
+}
+
+.container {
+    max-width: 1000;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.action {
+    cursor: pointer;
+}
+
+.js-action-delete {
+    margin-left: 10px;
+}
+
+.icons {
+    min-width: 60px;
+    margin-left: 20px;
+}
+
+.js-add-btn {
+    margin-bottom: 20px;
+}
+
+.form-check-input {
+    left: 25.6px;
+}
